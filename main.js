@@ -9,9 +9,9 @@ function setTheme(themeName) {
 //setTheme significa definir tema
 function toggleTheme() {
   if (localStorage.getItem('theme') === 'theme-dark') {
-    setTheme('theme-dark')
+    setTheme('theme-light')
   } else {
-    setTheme('theme-ligth')
+    setTheme('theme-dark')
   }
 }
 
